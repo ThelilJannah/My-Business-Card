@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  animation-name: background;
+  animation-duration: 6s;
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+}
+
+.avatar{
+  width: 150px;
+  border-radius: 20px;
+  border: 2px solid #BBCDE5;
+}
+
+.main{
+  display: flex;
+  background-color: #1C5D99;
+  color: #BBCDE5;
+  width: 500px;
+  justify-content: space-around;
+  margin: 100px auto;
+  padding: 25px;
+  text-align: center;
+  border-top: 5px solid #BBCDE5;
+  border-bottom: 5px solid #BBCDE5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.avatar:hover{
+  width: 160px;
+  border: 2px solid tomato;
+   
+}
+
+.about-me{
+  text-shadow: 3px 3px #222;
+}
+
+.about-me:hover{
+  text-shadow: none;
+}
+
+.role{
+  text-shadow: none;
+}
+
+.main:hover{
+  /* background-color: #BBCDE5; */
+  border-top: 5px solid  tomato;
+  border-bottom: 5px solid  tomato;
+  /* box-shadow: #e7ddddc9 0px 10px 36px 0px, #e7ddddc9 0px 0px 0px 1px; */
+}
+
+@keyframes background {
+  from {background-color: #222;}
+  to {background-color: #FFF;}
+}
