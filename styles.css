@@ -1,11 +1,14 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #222;
+  width: 100vw;
+  height: 100vw;
+  background: linear-gradient(to right, #1D4350, #A43931) ;
   animation-name: background;
   animation-duration: 6s;
   animation-delay: 3s;
   animation-iteration-count: 3;
+  overflow: hidden;
 }
 
 .avatar{
@@ -20,7 +23,9 @@ body{
   color: #BBCDE5;
   width: 500px;
   justify-content: space-around;
-  margin: 100px auto;
+  margin: 200px auto;
+  /* height: 180px;
+  align-content: center; */
   padding: 25px;
   text-align: center;
   border-top: 5px solid #BBCDE5;
@@ -55,6 +60,6 @@ body{
 }
 
 @keyframes background {
-  from {background-color: #222;}
-  to {background-color: #FFF;}
+  from {background: linear-gradient(to right, #2C3E50 , #FD746C);}
+  to {background: linear-gradient(to right, #16BFFD , #CB3066);}
 }
